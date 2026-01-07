@@ -17,7 +17,7 @@ class BrandResource extends Resource
     // ✅ Always set a navigation group + better icon for new resources
     protected static ?string $navigationGroup = 'Catalog';
     protected static ?string $navigationIcon  = 'heroicon-o-tag';
-    protected static ?int $navigationSort     = 3;
+    protected static ?int $navigationSort     = 1;
 
     public static function getNavigationLabel(): string
     {
